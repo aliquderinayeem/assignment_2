@@ -1,0 +1,70 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    max-width: 90em;
+    width:100%;
+    background-color: #F5F8FF
+}
+
+/*Text Colors*/
+.dark01{
+    color:#252432;
+}
+/*shared styles*/
+.display-flex{
+    display:flex;
+}
+/*header part styles*/
+.header{
+    justify-content: space-between;
+    max-width: 71.25em;
+    max-height: 4.4375em;
+    width:100%;
+    height:100%;
+    margin-top: 1.53125em;
+    margin-left:9.375em;
+    margin-right: 9.375em;
+    border:1px solid red;
+}
+.logo{
+    border:1px solid black;
+    max-width:8.4375em;
+    max-height:5.125em;
+    width:100%;
+    height:100%;
+    margin: 0em 36.875em 0em 0em;
+}
+.nav{
+    max-width:25.9375em;
+    height:3.75em;
+    width:100%;
+    height:100%;
+    margin:0.6875em 0em 2.6875em 0em;
+    border:1px solid black;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size:1em;
+    
+}
+.home{
+font-weight: bold;
+}
+/*shopping cart part*/
+.shopping-cart{
+    max-width:1.5em;
+    max-height:1.5em;
+}
