@@ -249,19 +249,57 @@ vertical-align: middle;
     row-gap: 30px;
 }
 /*NEW PART*/
+
 .badge{
     max-width: 1140px;
     max-height: 587px;
-    row-gap:60px;
+    column-gap:60px;
     margin:210.13px auto 133.87px auto;
-    border: 1px solid black;
 }
+.badge-main{
+    max-width: 286px;
+    max-height: 286px;
+    position:absolute;
+    right:-95px;
+    top:-130px;
+}
+.image_gardener{
+    position:relative;
+    max-height: 100px;
+}
+
 .badge_description{
     max-width: 540px;
     max-height: 521px;
-    margin:38px 0px 38px 0px;
-    border: 1px solid red;
+    margin:45px 0px 38px 0px;
+    flex-direction: column;
+    row-gap: 20px;
 }
 .badge_list li{
     list-style: disc;
+    flex-direction: column;
+    float:left;
+    row-gap: 20px;
+}
+.badge_des_title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.badge_list{
+    font-size: 22px;
+}
+.items{
+    margin:0;
+}
+/*spin*/
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spinning-image {
+  animation: spin 4s linear infinite; /* Name, Duration, Timing Function, Iteration Count */
 }
