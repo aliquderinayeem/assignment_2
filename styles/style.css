@@ -310,7 +310,6 @@ vertical-align: middle;
     font-size: 50px;
     text-align: center;
     vertical-align: middle;
-    border: 1px solid yellow;
 }
 .lt-deals-des{
     border:1px solid red;
@@ -325,8 +324,7 @@ vertical-align: middle;
     max-width: 1140px;
     max-height: 424px;
     margin: 120px auto 0px auto;
-    column-gap: 28px;
-    border:1px solid black;
+    column-gap: 28px;k;
 }
 .col1{
 flex-direction: column;
@@ -341,7 +339,6 @@ border:1px solid rgb(20, 224, 173);
     justify-content:center;
     align-items: center;
     text-align: center;
-    border:1px solid red;
 }
 
 .ana{
@@ -352,7 +349,6 @@ border:1px solid rgb(20, 224, 173);
     align-items: center;
     text-align: center;
     border-radius: 14px;
-    border: 1px solid blue;
 }
 .zaba{
     position: relative; 
@@ -363,7 +359,6 @@ border:1px solid rgb(20, 224, 173);
     justify-content:center;
     align-items: center;
     text-align: center;
-    border:1px solid red;
 }
 .boom-ana-title{
     font-size: 20px;
