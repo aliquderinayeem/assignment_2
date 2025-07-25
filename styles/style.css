@@ -134,7 +134,7 @@ img1{
     max-height:38px;
     width:100%;
     height:100%;
-    margin-top: 13pxm;
+    margin-top: 13px;
     margin-left:16px;
     margin-right:16px;
 
@@ -191,6 +191,17 @@ vertical-align: middle;
 }
 }
 /*HEADER CLOSED*/
+
+
+
+
+
+
+
+
+
+
+
 .plant_sell{
     max-width:71.25em;
     height:74.18em;
@@ -248,13 +259,18 @@ vertical-align: middle;
     column-gap: 20px;
     row-gap: 30px;
 }
+
+
+
+
+
+
 /*responsive*/
 @media only screen and (max-width:576px) {
     .plant_sell{
     max-width:393px;
-    height:33px;
     width:100%;
-    margin:65px 0px 16px 0px;
+    margin-top:65px;
 }
 .sell_head{
     font-weight: bold;
@@ -263,35 +279,43 @@ vertical-align: middle;
     vertical-align: middle;
 }
 .sell_description{
-    font-size:0.875px;
-    max-width:336px;
-    max-height:68px;
+    font-size:0.875em;
+    width:336px;
+    height:68px;
     text-align:center;
     margin-top:16px;
+    margin-left:28.5px;
+    margin-right: 28.5px;
+    margin-bottom: 0px;
 }
 .plant_sell_post{
     max-width:362px;
-    max-height:1078px;
-    margin:28px 0px 0px 0px;
+    margin:40px 12px 0px 12px;
 }
+
 .card{
     max-width:171px;
-    max-height:341px;
+    max-height:340.5px;
+}
+.image_part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .rest_part{
-    max-width:270px;
-    max-height:132px;
+    max-width:171px;
+    max-height:114px;
     margin-top:30px;
 }
 .rest_part_text{
-    margin:0px 69px 30px 69px;
-    width:132px;
-    height:52px;
-    font-size:1.375em;
+    margin:0px 37.5px 30px 37.5px;
+    width:96px;
+    height:24px;
+    font-size:1em;
     text-align: center;
 }
 .button{
-    width:16.875em;
+    width:171px;
     height:50px;
     background-color: #E95A08;
     color: white;
@@ -305,7 +329,7 @@ vertical-align: middle;
     display:grid;
     grid-template-columns:repeat(2, 1fr);
     column-gap: 20px;
-    row-gap: 28px;
+    row-gap: 28.5px;
 }
 .card:nth-of-type(n+7) {
   display: none;
@@ -328,7 +352,6 @@ vertical-align: middle;
 }
 .image_gardener{
     position:relative;
-    max-height: 100px;
 }
 
 .badge_description{
@@ -366,6 +389,65 @@ vertical-align: middle;
 .spinning-image {
   animation: spin 4s linear infinite; /* Name, Duration, Timing Function, Iteration Count */
 }
+
+/*RESPONSIVE                    */
+/*responsive part start*/
+
+
+@media only screen and (max-width:576px) {
+.badge{
+max-width:361px;
+max-height:648px;
+row-gap:60px;
+flex-direction: column;
+margin:80px auto 13.87px auto;
+}
+
+.image_gardener img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.badge-main{
+display:none !important;
+}
+.badge_description{
+    max-width: 361px;
+    max-height: 234px;
+    margin:18px auto 143px auto;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.badge_list li{
+    list-style: disc;
+    flex-direction: column;
+    float:left;
+    row-gap: 20px;
+}
+.badge_des_title{
+    font-weight: bold;
+    font-size: 24px;
+}
+.badge_list{
+    font-size: 14px;
+}
+.items{
+    margin:0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .lt_deals{
     max-height: 1440px;
     max-height: 68px;
