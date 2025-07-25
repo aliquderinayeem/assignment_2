@@ -103,7 +103,7 @@ vertical-align: middle;
     font-weight: bold;
 }
 .header_text_description{
-    max-width: 35.625em;
+    max-width:35.625em;
     max-height:6.75em;
     font-size:1.375em ;
 }
@@ -247,4 +247,21 @@ vertical-align: middle;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 30px;
+}
+/*NEW PART*/
+.badge{
+    max-width: 1140px;
+    max-height: 587px;
+    row-gap:60px;
+    margin:210.13px auto 133.87px auto;
+    border: 1px solid black;
+}
+.badge_description{
+    max-width: 540px;
+    max-height: 521px;
+    margin:38px 0px 38px 0px;
+    border: 1px solid red;
+}
+.badge_list li{
+    list-style: disc;
 }
