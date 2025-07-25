@@ -400,7 +400,7 @@ max-width:361px;
 max-height:648px;
 row-gap:60px;
 flex-direction: column;
-margin:80px auto 13.87px auto;
+margin:80px auto 10.87px auto;
 }
 
 .image_gardener img{
@@ -414,7 +414,7 @@ display:none !important;
 .badge_description{
     max-width: 361px;
     max-height: 234px;
-    margin:18px auto 143px auto;
+    margin:0px auto 0px auto;
     flex-direction: column;
     row-gap: 20px;
 }
@@ -437,17 +437,6 @@ display:none !important;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .lt_deals{
     max-height: 1440px;
     max-height: 68px;
@@ -455,6 +444,7 @@ display:none !important;
     font-size: 50px;
     text-align: center;
     vertical-align: middle;
+    margin-top:143px;
 }
 .lt-deals-des{
     max-width: 888px;
@@ -463,6 +453,24 @@ display:none !important;
     text-align: center;
     vertical-align: middle;
     margin:auto;
+}
+@media only screen and (max-width:576px) {
+.lt_deals{
+    max-height: 393px;
+    max-height: 33px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+.lt-deals-des{
+    max-width: 336px;
+    max-height:38px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    margin:auto;
+}
 }
 .last_cards_container{
     max-width: 1140px;
@@ -474,6 +482,7 @@ display:none !important;
 flex-direction: column;
 row-gap: 25px;
 }
+
 .boom{
     background-image: url(../assets/deal-bloom.png);
     width: 366.22px;
@@ -492,6 +501,8 @@ row-gap: 25px;
     align-items: center;
     text-align: center;
     border-radius: 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .zaba{
     position: relative; 
@@ -502,6 +513,8 @@ row-gap: 25px;
     justify-content:center;
     align-items: center;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .boom-ana-title{
     font-size: 20px;
@@ -542,6 +555,43 @@ row-gap: 25px;
 .boom_ana_padding {
   position: relative;
   z-index: 2;
+}
+
+
+
+@media only screen and (max-width:576px) {
+.last_cards_container{
+    max-width: 361px;
+    max-height: 581px;
+    margin: 51.5px auto 0px auto;
+    flex-direction: column;
+    column-gap: 20px;
+}
+.ana{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boom{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zaba{
+    max-width: 361px;
+    max-height: 184.5px;
+    margin: 20px auto 0px auto; 
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.zabo-title{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+.shop_now_new{
+    color:white;
+    font-weight: 600;/*semibold*/
+    font-size: 16px;
+}
 }
 .prompt{
     max-width: 1440px;
