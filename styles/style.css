@@ -248,6 +248,69 @@ vertical-align: middle;
     column-gap: 20px;
     row-gap: 30px;
 }
+/*responsive*/
+@media only screen and (max-width:576px) {
+    .plant_sell{
+    max-width:393px;
+    height:33px;
+    width:100%;
+    margin:65px 0px 16px 0px;
+}
+.sell_head{
+    font-weight: bold;
+    font-size:24px;
+    text-align: center;
+    vertical-align: middle;
+}
+.sell_description{
+    font-size:0.875px;
+    max-width:336px;
+    max-height:68px;
+    text-align:center;
+    margin-top:16px;
+}
+.plant_sell_post{
+    max-width:362px;
+    max-height:1078px;
+    margin:28px 0px 0px 0px;
+}
+.card{
+    max-width:171px;
+    max-height:341px;
+}
+.rest_part{
+    max-width:270px;
+    max-height:132px;
+    margin-top:30px;
+}
+.rest_part_text{
+    margin:0px 69px 30px 69px;
+    width:132px;
+    height:52px;
+    font-size:1.375em;
+    text-align: center;
+}
+.button{
+    width:16.875em;
+    height:50px;
+    background-color: #E95A08;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    border:none;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 28px;
+}
+.card:nth-of-type(n+7) {
+  display: none;
+}
+}
 /*NEW PART*/
 
 .badge{
