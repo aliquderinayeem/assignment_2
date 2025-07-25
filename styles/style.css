@@ -323,7 +323,7 @@ vertical-align: middle;
     max-width: 1140px;
     max-height: 424px;
     margin: 120px auto 0px auto;
-    column-gap: 28px;k;
+    column-gap: 28px;
 }
 .col1{
 flex-direction: column;
@@ -397,4 +397,32 @@ row-gap: 25px;
 .boom_ana_padding {
   position: relative;
   z-index: 2;
+}
+.prompt{
+    max-width: 1440px;
+    max-height: 533px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border:1px solid transparent;
+    margin-top: 120px;
+    background-image: url(../assets/news-letter-bg.png);
+}
+.prompt_text-container{
+    max-width: 830px;
+    max-height:141px;
+    height:100%;
+    text-align: center;
+    vertical-align: middle;
+    margin:199px 305px 193px 305px;
+    border:1px solid red;
+}
+.prompt_text-title{
+    font-size: 50px;
+    font-weight:bold ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
 }
