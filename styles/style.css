@@ -303,3 +303,94 @@ vertical-align: middle;
 .spinning-image {
   animation: spin 4s linear infinite; /* Name, Duration, Timing Function, Iteration Count */
 }
+.lt_deals{
+    max-height: 1440px;
+    max-height: 68px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid yellow;
+}
+.lt-deals-des{
+    border:1px solid red;
+    max-width: 888px;
+    max-height:54px;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    margin:auto;
+}
+.last_cards_container{
+    max-width: 1140px;
+    max-height: 424px;
+    margin: 120px auto 0px auto;
+    column-gap: 28px;
+    border:1px solid black;
+}
+.col1{
+flex-direction: column;
+row-gap: 25px;
+border:1px solid rgb(20, 224, 173);
+}
+.boom{
+    background-image: url(../assets/deal-bloom.png);
+    width: 366.22px;
+    height:206px;
+    border-radius: 14px;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border:1px solid red;
+}
+
+.ana{
+    background-image: url(../assets/deal-ana.png);
+    width: 366.22px;
+    height:206px;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 14px;
+    border: 1px solid blue;
+}
+.zaba{
+    background-image: url(../assets/deal-zabo.png);
+    width: 753px;
+    height:423.13px;
+    border-radius:22px;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border:1px solid red;
+}
+.boom-ana-title{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+.shop_now{
+    color:white;
+    font-weight: 600;/*semibold*/
+    font-size: 16px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* black with 40% opacity */
+  border-radius: 14px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* To keep text above overlay */
+.boom, .ana {
+  position: relative;
+}
+.boom_ana_padding {
+  position: relative;
+  z-index: 2;
+}
