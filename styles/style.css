@@ -562,10 +562,9 @@ row-gap: 25px;
 @media only screen and (max-width:576px) {
 .last_cards_container{
     max-width: 361px;
-    max-height: 581px;
     margin: 51.5px auto 0px auto;
     flex-direction: column;
-    column-gap: 20px;
+    row-gap: 20px;
 }
 .ana{
     background-repeat: no-repeat;
@@ -578,7 +577,7 @@ row-gap: 25px;
 .zaba{
     max-width: 361px;
     max-height: 184.5px;
-    margin: 20px auto 0px auto; 
+    margin: 7px auto 0px auto; 
     background-repeat: no-repeat;
     background-size: cover;  
 }
@@ -593,6 +592,18 @@ row-gap: 25px;
     font-size: 16px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .prompt{
     max-width: 1440px;
     max-height: 533px;
@@ -646,6 +657,73 @@ row-gap: 25px;
 .special{
     margin-top: 23px;
 }
+
+
+@media only screen and (max-width:576px) {
+   .prompt{
+    max-width: 393px;
+    max-height: 276px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border:1px solid transparent;
+    margin-top: 280px;
+    margin-bottom: 500px;
+    margin-right: -3px;
+    background-image: url(../assets/news-letter-bg.png);
+    border: 1px slid black;
+}
+.prompt_text-container{
+    max-width: 321px;
+    max-height:100px;
+    height:100%;
+    text-align: center;
+    vertical-align: middle;
+    margin:110px 36px 61.5px 36px;
+}
+.prompt_text-title{
+    font-size: 50px;
+    font-weight:bold ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.prompt_text-title{
+    font-size: 20px;
+    font-weight:bold ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.input_button{
+    width:103px;
+    height:50px;
+    background-color: #E95A08;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    border:none;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
     width:1120px;
     height:250px;
