@@ -118,7 +118,7 @@ img1{
     display:block;
 }
 /*for desktop version closed*/
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:576px) {
     body{
     max-width:393.18px;
     height:245px;
@@ -189,4 +189,38 @@ vertical-align: middle;
     height:100%;
     object-fit: cover;
 }
+}
+/*HEADER CLOSED*/
+.plant_sell{
+    max-width:71.25em;
+    height:74.18em;
+    width:100%;
+    height:100%;
+    margin:120px 150px 49px 150px;
+    border:1px solid black;
+}
+.sell_head{
+    font-weight: bold;
+    font-size:3.125em;
+    text-align: center;
+    vertical-align: middle;
+    border:1px solid red;
+}
+.sell_description{
+    font-size:1.375em;
+    max-width:888px;
+    max-height:54px;
+    text-align: center;
+    margin:1em 7.875em 0em 7.875em;
+    border:1px dashed red;
+}
+.plant_sell_post{
+    max-width:1140px;
+    max-height:1000px;
+    border:1px solid black;
+}
+.card{
+    max-width:16.875em;
+    max-height:30.30875em;
+    border:1px dashed black;
 }
