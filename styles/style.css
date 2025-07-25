@@ -312,7 +312,6 @@ vertical-align: middle;
     vertical-align: middle;
 }
 .lt-deals-des{
-    border:1px solid red;
     max-width: 888px;
     max-height:54px;
     font-size: 22px;
@@ -329,7 +328,6 @@ vertical-align: middle;
 .col1{
 flex-direction: column;
 row-gap: 25px;
-border:1px solid rgb(20, 224, 173);
 }
 .boom{
     background-image: url(../assets/deal-bloom.png);
