@@ -29,6 +29,9 @@ body{
 .black{
     color:black;
 }
+.orange{
+    color:#E95A08;
+}
 /*shared styles*/
 .display-flex{
     display:flex;
@@ -43,12 +46,14 @@ body{
     margin-top: 1.53125em;
     margin-left:9.375em;
     margin-right: 9.375em;
+    border:1px solid green;
 
 }
 .logo{
 
     max-width:8.4375em;
     max-height:5.125em;
+    border:1px dotted red;
     /*width:100%;*/
 }
 ul li{
@@ -62,15 +67,52 @@ a{
     justify-content: center;
     align-items: center;
     padding:0;
+    border:1px solid yellow;
 }
 .home{
     margin-left:0em;
-    margin-right: 3em;
+    margin-right:3em;
     font-weight: bold;
 }
 .about,.shop{
     margin-right:3em;
 }
-#cart{
+.cart{
 vertical-align: middle;
 }
+.cart-image{
+    margin-right:0.625em;
+}
+/*navbar closed*/
+.header-container{
+    border:1px solid red;
+    width:71.25em;
+    height:28.8125em;
+    margin:6.8125em 9.375em 7.5em 9.375em;
+}
+/*insight:container cannot have max width or max*/
+.header_text{
+    margin-top:10.125em;
+}
+.header_text_heading{
+    max-width:35.625em;
+    max-height:11.125em;
+    font-size: 4.0625em;
+    font-weight: bold;
+    border:1px dotted black;
+    margin:0 0 0.2em 0;
+}
+.header_text_description{
+    max-width: 35.625em;
+    max-height:6.75em;
+    font-size:1.375em ;
+    border:1px solid red;
+}
+.hero-image{
+    max-width:35.625em;
+    max-height:22.1875em;
+    margin:0;
+    margin-top:6.625em;
+    border:1px solid yellow;
+}
+/*for desktop version closed*/
