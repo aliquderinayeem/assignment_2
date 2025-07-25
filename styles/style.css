@@ -775,6 +775,7 @@ color:#8987A1;
     max-width:36px;
     max-height:36px;
 }
+
 @media only screen and (max-width:576px) {
 .footer{
     width:359px;
@@ -790,5 +791,8 @@ color:#8987A1;
     margin-left:5px;
     margin-bottom:50px;
     row-gap: 20px;
+}
+.b{
+    margin-top:9px;
 }
 }
