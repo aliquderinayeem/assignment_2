@@ -416,7 +416,6 @@ row-gap: 25px;
     text-align: center;
     vertical-align: middle;
     margin:199px 305px 193px 305px;
-    border:1px solid red;
 }
 .prompt_text-title{
     font-size: 50px;
@@ -424,5 +423,26 @@ row-gap: 25px;
     color: white;
     align-items: center;
     justify-content: center;
-    border:1px solid black;
+}
+.input_email{
+    width: 644px;
+    height:50px;
+    background-color: white;
+    padding: 15.5px 20px;
+}
+.input_button{
+    width:186px;
+    height:50px;
+    background-color: #E95A08;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    border:none;
+
+}
+.input_email::placeholder {
+  color:#8987A1;
+  font-size: 1em;
 }
